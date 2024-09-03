@@ -1,0 +1,46 @@
+
+#---------send Automate whatsapp message using python ---------
+
+import pywhatkit as kit
+# phone _number in formate <"country_code"><phone_no>
+phone_number =+91-7067642626
+#message to send 
+message = "hellow  this side sayyed this is my new project 'send automatic whatsapp message'"
+#time  to end the  message (24 hour)
+time_hour =11
+time_minute = 40
+kit.sendwhatmsg(phone_number,message,time_hour,time_minute)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
